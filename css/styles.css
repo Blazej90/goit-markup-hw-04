@@ -100,6 +100,12 @@ nav {
   /* padding-left: 371px; */
 }
 
+#icon-envelope {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  font-size: 16px;
+}
+
 /* .contact > li > a:first-child {
   padding-left: 300px;
 } */
