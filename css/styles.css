@@ -165,6 +165,15 @@ main {
   margin-right: 30px;
 }
 
+.container-svg-lorem {
+  background-color: rgba(245, 244, 250, 1);
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .lorem-header {
   font-size: 14px;
   font-weight: bold;
