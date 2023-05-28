@@ -507,6 +507,13 @@ address {
   padding: 6px 22px 6px 22px;
   border-radius: 4px;
   cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+button:hover {
+  box-shadow: 1px 7px 18px -6px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 1px 7px 18px -6px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 1px 7px 18px -6px rgba(0, 0, 0, 0.52);
 }
 
 .btn-portfolio:last-child {
@@ -544,25 +551,19 @@ address {
   display: inline-block;
   flex-direction: row;
   justify-content: space-between;
-  /* margin-right: 30px; */
   border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 1px;
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
 }
 
-/* .design-img-border {
-  border-right: 2px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-  border-left: 2px solid rgba(0, 0, 0, 0.2);
-  border-radius: 1px;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 1);
-} */
-
-/* .design-img:nth-child(2n + 1) {
-  margin-right: 0px;
-} */
+.design-img:hover {
+  box-shadow: 1px 7px 18px -6px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 1px 7px 18px -6px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 1px 7px 18px -6px rgba(0, 0, 0, 0.52);
+}
 
 .portfolio-examples {
   display: flex;
@@ -572,8 +573,3 @@ address {
   padding-right: 185px;
   padding-bottom: 94px;
 }
-
-/* .images-portfolio-examples {
-  display: flex;
-  flex-wrap: wrap;
-} */
